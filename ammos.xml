@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Ammos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.pistol2">
+        <stockTextureName>weapons/ballistic/ammo/pistol2_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/ammo/pistol2_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+    <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.ak">
+        <stockTextureName>weapons/ballistic/ammo/ak_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/ammo/ak_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+    <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.rifle2">
+        <stockTextureName>weapons/ballistic/ammo/rifle2_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/ammo/rifle2_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+    <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.machinegun2">
+        <stockTextureName>weapons/ballistic/ammo/machinegun2_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/ammo/machinegun2_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>2</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+    <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.sniper2">
+        <stockTextureName>weapons/ballistic/ammo/sniper2_ammo</stockTextureName>
+        <dragTextureName>weapons/ballistic/ammo/sniper2_ammo</dragTextureName>
+        <slotsizex>1</slotsizex>
+        <slotsizey>1</slotsizey>
+        <weight>1</weight>
+    </Ammo>
+</Ammos>

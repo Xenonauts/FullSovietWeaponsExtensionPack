@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Sounds>
+  <!-- The list of sounds & waves which aren't footsteps, destruction and doors. -->
+  <General>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK47 Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_ak47_burst.ogg</Wave>
+    </Sound>
+  </General>
+</Sounds>

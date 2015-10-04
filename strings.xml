@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="http://schemas.microsoft.com/office/excel/2003/xml" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office"><Colors><Color><Index>3</Index><RGB>#c0c0c0</RGB></Color><Color><Index>4</Index><RGB>#ff0000</RGB></Color></Colors></OfficeDocumentSettings><ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel"><WindowHeight>9000</WindowHeight><WindowWidth>13860</WindowWidth><WindowTopX>240</WindowTopX><WindowTopY>75</WindowTopY><ProtectStructure>False</ProtectStructure><ProtectWindows>False</ProtectWindows></ExcelWorkbook><Styles><Style ss:ID="Default" ss:Name="Default"/><Style ss:ID="Result" ss:Name="Result"><Font ss:Bold="1" ss:Italic="1" ss:Underline="Single"/></Style><Style ss:ID="Result2" ss:Name="Result2"><Font ss:Bold="1" ss:Italic="1" ss:Underline="Single"/><NumberFormat ss:Format="Euro Currency"/></Style><Style ss:ID="Heading" ss:Name="Heading"><Font ss:Bold="1" ss:Italic="1" ss:Size="16"/></Style><Style ss:ID="Heading1" ss:Name="Heading1"><Font ss:Bold="1" ss:Italic="1" ss:Size="16"/></Style><Style ss:ID="Normal" ss:Name="Normal"/><Style ss:ID="co1"/><Style ss:ID="co2"/><Style ss:ID="co3"/><Style ss:ID="ta1"/><Style ss:ID="ce1" ss:Parent="Normal"><Alignment ss:Vertical="Bottom" ss:WrapText="1"/></Style></Styles><ss:Worksheet ss:Name="strings"><Table ss:StyleID="ta1"><Column ss:Width="245.9905"/><Column ss:Width="844.4976"/><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.pistol2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Pistol (Makarov)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="270"><Cell><Data ss:Type="String">weapon.pistol2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Pistol (Makarov):&lt;/b&gt;
+
+Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range and no burst fire. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).
+
+Their 1.5x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.
+
+Range:                                                     10
+Damage:                                                  30 Kinetic
+Suppression:                                            20 Suppression
+Mitigation:                                                 0
+Ammo Capacity:                                      8 shots
+Reaction Modifier:                                    1.5x
+Reload Cost:                                            15 TU
+
+Fire Modes:
+- 28%% TU                                                  45 Acc x 1 shot
+- 40%% TU                                                  80 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault rifle (AK-47):&lt;/b&gt;
+
+The legendary soviet rifle AK-47, is not as precise as other modern assault rifles but is able to fire 5 rounds bursts. 
+
+Range:                                                     16
+Damage:                                                  30 Kinetic
+Suppression:                                            25 Single / 85 Burst
+Mitigation:                                                 5
+Ammo Capacity:                                      30 shots
+Reaction Modifier:                                    1x
+Reload Cost:                                            25 TU
+
+Fire Modes:
+- 28%% TU                                                  40 Acc x 1 shot
+- 40%% TU                                                  70 Acc x 1 shot
+- 55%% TU                                                115 Acc x 1 shot
+
+- 60%% TU                                                 30 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.rifle2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault Rifle (AK-74):&lt;/b&gt;
+
+Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.
+
+Range:                                                     20
+Damage:                                                  30 Kinetic
+Suppression:                                            20 Single / 60 Burst
+Mitigation:                                                 0
+Ammo Capacity:                                      30 shots
+Reaction Modifier:                                    1x
+Reload Cost:                                            25 TU
+
+Fire Modes:
+- 28%% TU                                                  45 Acc x 1 shot
+- 40%% TU                                                  80 Acc x 1 shot
+- 55%% TU                                                130 Acc x 1 shot
+
+- 60%% TU                                                 45 Acc x 3 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault Rifle (AK-47):&lt;/b&gt;
+
+The very popular soviet assault rifle AK-47 - although it is less accurate and has lower range than its successor AK-74 this weapon can serve well in combat when used properly. It has better armour penetration and is able to fire 5 rounds bursts which makes it ideal for engaging armoured enemies at close range.  
+
+Range:                                                     16
+Damage:                                                  30 Kinetic
+Suppression:                                            25 Single / 85 Burst
+Mitigation:                                                 5
+Ammo Capacity:                                      30 shots
+Reaction Modifier:                                    1x
+Reload Cost:                                            25 TU
+
+Fire Modes:
+- 28%% TU                                                  40 Acc x 1 shot
+- 40%% TU                                                  70 Acc x 1 shot
+- 55%% TU                                                115 Acc x 1 shot
+
+- 60%% TU                                                 30 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Machinegun (PK)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.machinegun2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Machinegun (PK):&lt;/b&gt;
+
+Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.
+
+They are also Heavy weapons, meaning a strong soldier is needed to use them effectively. They use the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 70 STR (due to the 70 Recoil). 
+
+Range:                                                     25
+Damage:                                                  30 Kinetic
+Suppression:                                            120 Burst
+Mitigation:                                                 5
+Ammo Capacity:                                      30 shots
+Reaction Modifier:                                    0.5x
+Recoil:                                                      70 Recoil
+Reload Cost:                                            35 TU
+
+Fire Modes:
+- 80%% TU                                                 35 Acc x 10 shots</Data></Cell></Row><Row ss:Index="10" ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.rocketlauncher2</Data></Cell><Cell><Data ss:Type="String">Soviet Rocket launcher (RPG-7)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.rocketlauncher2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Rocket Launcher (RPG-7):&lt;/b&gt;
+
+Rocket Launchers fire rockets (shown under the "Rockets" tab of the "Equipment" section) over long range. These generally have large blast areas and do medium damage to enemies and heavy damage to cover and terrain. Remember, enemies killed with explosives will not leave any recoverable items!
+
+The Rocket Launcher is a Heavy weapon, meaning a strong soldier is needed to use it effectively. It uses the lower of ACC and STR to determine accuracy and an additional penalty is incurred if the soldier has less than 70 STR (due to the 70 Recoil). 
+
+Range:                                                     30
+Damage:                                                  (Rocket)
+Suppression:                                            60
+Ammo Capacity:                                      1 rocket
+Reaction Modifier:                                    N/A (no reaction fire)
+Recoil:                                                      70 Recoil
+Reload Cost:                                            35 TU
+
+Fire Modes:
+- 50%% TU                                                 75 Acc x 1 shot
+- 80%% TU                                               100 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.sniper2</Data></Cell><Cell><Data ss:Type="String">Soviet Precision Rifle (SWD)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="299.9905"><Cell><Data ss:Type="String">weapon.sniper2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Precision Rifle (SWD):&lt;/b&gt;
+
+Precision weapons are more accurate than rifles and do slightly more damage, making them useful at long range. Their mitigation also gives them a damage bonus against armoured (i.e. robotic) enemies.
+
+However, each shot has a higher TU cost than a rifle and the weapon lacks burst fire. It also receives no short-range accuracy bonus and has a negative modifier for reaction fire, making it a poor assault weapon.
+
+Range:                                                     30
+Damage:                                                  35 Kinetic
+Suppression:                                            25 Suppression
+Mitigation:                                                10
+Ammo Capacity:                                      6 shots
+Reaction Modifier:                                    0.5x
+Reload Cost:                                            30 TU
+
+Fire Modes:
+- 38%% TU                                                   60 Acc  x 1 shot
+- 49%% TU                                                  105 Acc x 1 shot
+- 65%% TU                                                  165 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.sniper2</Data></Cell><Cell><Data ss:Type="String">Soviet Precision Rifle Magazine</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Machinegun Ammo</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.pistol2</Data></Cell><Cell><Data ss:Type="String">Soviet Pistol Magazine</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Rifle Magazine (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Rifle Magazine (AK-47)</Data></Cell></Row></Table><x:WorksheetOptions/></ss:Worksheet></Workbook>

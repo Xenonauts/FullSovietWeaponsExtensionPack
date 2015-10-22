@@ -26,7 +26,7 @@
         <dragTextureName>weapons/ballistic/ammo/machinegun2_ammo</dragTextureName>
         <slotsizex>1</slotsizex>
         <slotsizey>2</slotsizey>
-        <weight>1</weight>
+        <weight>4</weight>
     </Ammo>
     <Ammo MODMERGEATTRIBUTE="name" MODMERGE="insert" name="ammo.ballistic.sniper2">
         <stockTextureName>weapons/ballistic/ammo/sniper2_ammo</stockTextureName>

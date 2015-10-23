@@ -2,8 +2,19 @@
 <Sounds>
   <!-- The list of sounds & waves which aren't footsteps, destruction and doors. -->
   <General>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK47 Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_ak_single_1.ogg</Wave>
+    </Sound>
     <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon AK47 Burst" volume="1.0" group="1" comment="">
-      <Wave>audio/sfx/weapons/weapon_ak47_burst.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_ak_5burst_1.ogg</Wave>
+    </Sound>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon PKM Burst" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_pkm_10burst_1.ogg</Wave>
+    </Sound>
+    <Sound MODMERGEATTRIBUTE="name" MODMERGE="insert" name="Weapon SWD Single" volume="1.0" group="1" comment="">
+      <Wave>audio/sfx/weapons/weapon_swd_single_1.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_swd_single_2.ogg</Wave>
+      <Wave>audio/sfx/weapons/weapon_swd_single_3.ogg</Wave>	
     </Sound>
   </General>
 </Sounds>

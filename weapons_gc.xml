@@ -28,7 +28,26 @@
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.ak" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="0" weight="5" isHeavy="0" clipSize="30" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" />
-		<SingleShot sound="Weapon Assault Rifle Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
+		<SingleShot sound="Weapon AK47 Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
+			<Set1 ap="28" accuracy="40" />
+			<Set2 ap="40" accuracy="70" />
+			<Set3 ap="55" accuracy="115" />
+		</SingleShot>
+		<BurstFire ap="60" accuracy="30" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<GUIImage name="gui/weapons/AK47_colour.png"/>
+		<GroundImage name="grounditemimages/ballistic_ak.png"/>
+		<Ammos>
+			<Ammo name="ammo.ballistic.ak" type="kinetic" damage="30" mitigation="5">
+				<Projectile spectre="projectiles/bullet/bullet" speed="1500" showAfterDistance="60.0"/>
+				<Impact spectre="particles/bulletplume/bulletplume"/>
+			</Ammo>
+		</Ammos>
+	</Weapon>
+
+	<!-- this is already an ingame weapon used by soviet military forces (not really accurate as at this time AK-74 was the primary weapon) and arab military forces in the middle east -->
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.ak47" bulletType="normal" emptySound="Empty Click 1">
+		<props range="16" hands="2" recoil="0" weight="5" isHeavy="0" clipSize="30" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" />
+		<SingleShot sound="Weapon AK47 Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
 			<Set1 ap="28" accuracy="40" />
 			<Set2 ap="40" accuracy="70" />
 			<Set3 ap="55" accuracy="115" />
@@ -64,7 +83,7 @@
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.sniper2" bulletType="normal" emptySound="Empty Click 1" >
 		<props range="30" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="10" reloadAPCost="30" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="1"/>
-		<SingleShot sound="Weapon Sniper Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
+		<SingleShot sound="Weapon SWD Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
 			<Set1 ap="38" accuracy="60" />
 			<Set2 ap="49" accuracy="105" />
 			<Set3 ap="65" accuracy="165" />
@@ -83,7 +102,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.machinegun2" bulletType="normal" emptySound="Empty Click 1">
 		<props range="25" hands="2" recoil="70" weight="8" isHeavy="0" clipSize="30" reloadAPCost="35" reloadSound="Weapon Machinegun Reload" strengthLimited="1" reactionModifier="0.5" />
 		<SingleShot />
-		<BurstFire ap="80" accuracy="35" sound="Weapon Machinegun Burst" delay="0.7" burstdelay="0.1" shotCount="10" suppressionValue="120" suppressionRadius="2" />
+		<BurstFire ap="80" accuracy="35" sound="Weapon PKM Burst" delay="0.7" burstdelay="0.1" shotCount="10" suppressionValue="120" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Machinegun2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun2.png"/>
 		<Ammos>

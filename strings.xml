@@ -32,7 +32,7 @@ Fire Modes:
 - 40%% TU                                                  70 Acc x 1 shot
 - 55%% TU                                                115 Acc x 1 shot
 
-- 60%% TU                                                 30 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.rifle2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault Rifle (AK-74):&lt;/b&gt;
+- 60%% TU                                                 24 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.rifle2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault Rifle (AK-74):&lt;/b&gt;
 
 Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.
 
@@ -66,7 +66,7 @@ Fire Modes:
 - 40%% TU                                                  70 Acc x 1 shot
 - 55%% TU                                                115 Acc x 1 shot
 
-- 60%% TU                                                 30 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Machinegun (PK)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.machinegun2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Machinegun (PK):&lt;/b&gt;
+- 60%% TU                                                 24 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Machinegun (PK)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.machinegun2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Machinegun (PK):&lt;/b&gt;
 
 Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.
 

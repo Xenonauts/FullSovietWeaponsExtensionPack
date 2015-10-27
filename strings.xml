@@ -10,12 +10,12 @@ Damage:                                                  30 Kinetic
 Suppression:                                            20 Suppression
 Mitigation:                                                 0
 Ammo Capacity:                                      8 shots
-Reaction Modifier:                                    1.5x
+Reaction Modifier:                                    1.6x
 Reload Cost:                                            15 TU
 
 Fire Modes:
-- 28%% TU                                                  45 Acc x 1 shot
-- 40%% TU                                                  80 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault rifle (AK-47):&lt;/b&gt;
+- 28%% TU                                                  40 Acc x 1 shot
+- 40%% TU                                                  70 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault rifle (AK-47):&lt;/b&gt;
 
 The legendary soviet rifle AK-47, is not as precise as other modern assault rifles but is able to fire 5 rounds bursts. 
 
@@ -28,11 +28,11 @@ Reaction Modifier:                                    1x
 Reload Cost:                                            25 TU
 
 Fire Modes:
-- 28%% TU                                                  40 Acc x 1 shot
-- 40%% TU                                                  70 Acc x 1 shot
-- 55%% TU                                                115 Acc x 1 shot
+- 28%% TU                                                  45 Acc x 1 shot
+- 40%% TU                                                  80 Acc x 1 shot
+- 55%% TU                                                130 Acc x 1 shot
 
-- 60%% TU                                                 24 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.rifle2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault Rifle (AK-74):&lt;/b&gt;
+- 60%% TU                                                 27 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.rifle2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault Rifle (AK-74):&lt;/b&gt;
 
 Rifles are versatile weapons with average damage output. They are effective at long range using single shots, but can also burst fire to suppress enemies or inflict heavy close-quarters damage. This makes them reliable weapons that do not excel at any particular role.
 
@@ -62,11 +62,11 @@ Reaction Modifier:                                    1x
 Reload Cost:                                            25 TU
 
 Fire Modes:
-- 28%% TU                                                  40 Acc x 1 shot
-- 40%% TU                                                  70 Acc x 1 shot
-- 55%% TU                                                115 Acc x 1 shot
+- 28%% TU                                                  45 Acc x 1 shot
+- 40%% TU                                                  80 Acc x 1 shot
+- 55%% TU                                                130 Acc x 1 shot
 
-- 60%% TU                                                 24 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Machinegun (PK)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.machinegun2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Machinegun (PK):&lt;/b&gt;
+- 60%% TU                                                 27 Acc x 5 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Machinegun (PK)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.machinegun2.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Machinegun (PK):&lt;/b&gt;
 
 Machineguns fire long bursts that can inflict heavy damage and are excellent for suppressing enemies. However, a burst consumes 80%% of the soldier's TU to fire - limiting the mobility of the weapon.
 
@@ -104,15 +104,13 @@ Precision weapons are more accurate than rifles and do slightly more damage, mak
 
 However, each shot has a higher TU cost than a rifle and the weapon lacks burst fire. It also receives no short-range accuracy bonus and has a negative modifier for reaction fire, making it a poor assault weapon.
 
-Range:                                                     30
-Damage:                                                  35 Kinetic
-Suppression:                                            25 Suppression
-Mitigation:                                                10
-Ammo Capacity:                                      6 shots
-Reaction Modifier:                                    0.5x
-Reload Cost:                                            30 TU
+Range:                                                     35
+Damage:                                                  50 Kinetic
+Suppression:                                            40 Suppression
+Mitigation:                                                15
+Ammo Capacity:                                     10 shots
+Reaction Modifier:                                   0.25x
+Reload Cost:                                           30 TU
 
 Fire Modes:
-- 38%% TU                                                   60 Acc  x 1 shot
-- 49%% TU                                                  105 Acc x 1 shot
-- 65%% TU                                                  165 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.sniper2</Data></Cell><Cell><Data ss:Type="String">Soviet Precision Rifle Magazine</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Machinegun Ammo</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.pistol2</Data></Cell><Cell><Data ss:Type="String">Soviet Pistol Magazine</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Rifle Magazine (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Rifle Magazine (AK-47)</Data></Cell></Row></Table><x:WorksheetOptions/></ss:Worksheet></Workbook>
+- 95%% TU                                                 205 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.sniper2</Data></Cell><Cell><Data ss:Type="String">Soviet Precision Rifle Magazine</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.machinegun2</Data></Cell><Cell><Data ss:Type="String">Soviet Machinegun Ammo</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.pistol2</Data></Cell><Cell><Data ss:Type="String">Soviet Pistol Magazine</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.rifle2</Data></Cell><Cell><Data ss:Type="String">Soviet Rifle Magazine (AK-74)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">ammo.ballistic.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Rifle Magazine (AK-47)</Data></Cell></Row></Table><x:WorksheetOptions/></ss:Worksheet></Workbook>

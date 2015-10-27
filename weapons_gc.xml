@@ -11,10 +11,10 @@
 <!--                            -->
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pistol2" bulletType="normal" emptySound="Empty Click 1">
-		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="8" reloadAPCost="15" reloadSound="Weapon Pistol Reload" reactionModifier="1.5" />
+		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="8" reloadAPCost="15" reloadSound="Weapon Pistol Reload" reactionModifier="1.6" />
 		<SingleShot sound="Weapon Pistol Single" delay="0.6" suppressionValue="20" suppressionRadius="1">
-			<Set1 ap="28" accuracy="45" />
-			<Set2 ap="40" accuracy="80" />
+			<Set1 ap="28" accuracy="40" />
+			<Set2 ap="40" accuracy="70" />
 		</SingleShot>
 		<GUIImage name="gui/weapons/Pistol2" />
 		<GroundImage name="grounditemimages/ballistic_pistol2.png"/>
@@ -29,11 +29,11 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.ak" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="0" weight="5" isHeavy="0" clipSize="30" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" />
 		<SingleShot sound="Weapon AK47 Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
-			<Set1 ap="28" accuracy="40" />
-			<Set2 ap="40" accuracy="70" />
-			<Set3 ap="55" accuracy="115" />
+			<Set1 ap="28" accuracy="45" />
+			<Set2 ap="40" accuracy="80" />
+			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="24" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/AK47_colour.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>
@@ -45,14 +45,14 @@
 	</Weapon>
 
 	<!-- this is already an ingame weapon used by soviet military forces (not really accurate as at this time AK-74 was the primary weapon) and arab military forces in the middle east -->
-	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="update" name="weapon.ak47" bulletType="normal" emptySound="Empty Click 1">
+	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="replace" name="weapon.ak47" bulletType="normal" emptySound="Empty Click 1">
 		<props range="16" hands="2" recoil="0" weight="5" isHeavy="0" clipSize="30" reloadAPCost="25" reloadSound="Weapon Assault Rifle Reload" reactionModifier="1" />
 		<SingleShot sound="Weapon AK47 Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
-			<Set1 ap="28" accuracy="40" />
-			<Set2 ap="40" accuracy="70" />
-			<Set3 ap="55" accuracy="115" />
+			<Set1 ap="28" accuracy="45" />
+			<Set2 ap="40" accuracy="80" />
+			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="24" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/AK47_colour.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>
@@ -82,17 +82,15 @@
 	</Weapon>
 
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.sniper2" bulletType="normal" emptySound="Empty Click 1" >
-		<props range="30" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="10" reloadAPCost="30" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.5" disableShortRangeHitBonus="1" disableDamageScaling="1"/>
-		<SingleShot sound="Weapon SWD Single" delay="0.6" suppressionValue="25" suppressionRadius="1">
-			<Set1 ap="38" accuracy="60" />
-			<Set2 ap="49" accuracy="105" />
-			<Set3 ap="65" accuracy="165" />
+		<props range="35" hands="2" recoil="0" weight="7" isHeavy="0" clipSize="10" reloadAPCost="30" reloadSound="Weapon Precision Rifle Reload" reactionModifier="0.25" disableShortRangeHitBonus="1" disableDamageScaling="1"/>
+		<SingleShot sound="Weapon SWD Single" delay="0.6" suppressionValue="40" suppressionRadius="1">
+			<Set1 ap="95" accuracy="205" />
 		</SingleShot>
 		<BurstFire/>
 		<GUIImage name="gui/weapons/Sniper2.png"/>
 		<GroundImage name="grounditemimages/ballistic_sniper2.png"/>
 		<Ammos>
-			<Ammo name="ammo.ballistic.sniper2" type="kinetic" damage="35" mitigation="10" isHypervelocity="0">
+			<Ammo name="ammo.ballistic.sniper2" type="kinetic" damage="50" mitigation="15" isHypervelocity="0">
 				<Projectile spectre="projectiles/bullet/bullet" speed="1500" delay="2.5" showAfterDistance="60.0"/>
 				<Impact spectre="particles/bulletplume/bulletplume"/>
 			</Ammo>

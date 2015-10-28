@@ -13,8 +13,8 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.pistol2" bulletType="normal" emptySound="Empty Click 1">
 		<props range="10" hands="1" recoil="0" weight="2" isHeavy="0" clipSize="8" reloadAPCost="15" reloadSound="Weapon Pistol Reload" reactionModifier="1.6" />
 		<SingleShot sound="Weapon Pistol Single" delay="0.6" suppressionValue="20" suppressionRadius="1">
-			<Set1 ap="28" accuracy="40" />
-			<Set2 ap="40" accuracy="70" />
+			<Set1 ap="26" accuracy="40" />
+			<Set2 ap="37" accuracy="70" />
 		</SingleShot>
 		<GUIImage name="gui/weapons/Pistol2" />
 		<GroundImage name="grounditemimages/ballistic_pistol2.png"/>

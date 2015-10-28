@@ -3,7 +3,7 @@
 
 Pistols are single-handed weapons with the same damage output and fire costs as rifles, but with shorter range and no burst fire. They are primarily useful as a sidearm for units equipped with precision rifles or heavy weapons, or when a unit has only one hand free (e.g. if they are carrying a combat shield in the other hand).
 
-Their 1.5x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.
+Their 1.6x reaction fire modifier also makes them useful for scouting - they are more likely to perform reaction fire and less likely to receive it.
 
 Range:                                                     10
 Damage:                                                  30 Kinetic
@@ -14,8 +14,8 @@ Reaction Modifier:                                    1.6x
 Reload Cost:                                            15 TU
 
 Fire Modes:
-- 28%% TU                                                  40 Acc x 1 shot
-- 40%% TU                                                  70 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault rifle (AK-47):&lt;/b&gt;
+- 26%% TU                                                  40 Acc x 1 shot
+- 37%% TU                                                  70 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Soviet Ballistic Assault Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Soviet Ballistic Assault rifle (AK-47):&lt;/b&gt;
 
 The legendary soviet rifle AK-47, is not as precise as other modern assault rifles but is able to fire 5 rounds bursts. 
 

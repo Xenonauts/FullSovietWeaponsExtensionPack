@@ -14,8 +14,10 @@ Reaction Modifier:                                    1.6x
 Reload Cost:                                            15 TU
 
 Fire Modes:
-- 26%% TU                                                  40 Acc x 1 shot
-- 37%% TU                                                  70 Acc x 1 shot</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Ballistic Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Ballistic Rifle (AK-47):&lt;/b&gt;
+- 28%% TU                                                  40 Acc x 1 shot
+- 40%% TU                                                  70 Acc x 1 shot
+
+- 60%% TU                                                  40 Acc x 3 shots</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="14.9953"><Cell><Data ss:Type="String">weapon.ak</Data></Cell><Cell><Data ss:Type="String">Ballistic Rifle (AK-47)</Data></Cell></Row><Row ss:AutoFitHeight="0" ss:Height="284.9953"><Cell><Data ss:Type="String">weapon.ak47.desc</Data></Cell><Cell ss:StyleID="ce1"><Data ss:Type="String">&lt;font face="fonts/arial.mvec"\&gt;&lt;b&gt;Ballistic Rifle (AK-47):&lt;/b&gt;
 
 The legendary soviet rifle AK-47, is not as precise as other modern assault rifles but is able to fire 5 rounds bursts. 
 

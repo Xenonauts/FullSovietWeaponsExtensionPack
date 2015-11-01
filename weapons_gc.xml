@@ -34,7 +34,7 @@
 			<Set2 ap="40" accuracy="80" />
 			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.076" shotCount="5" suppressionValue="85" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/AK47_colour.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>
@@ -53,7 +53,7 @@
 			<Set2 ap="40" accuracy="80" />
 			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.1" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.076" shotCount="5" suppressionValue="85" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/AK47_colour.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>

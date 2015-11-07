@@ -34,7 +34,7 @@
 			<Set2 ap="40" accuracy="80" />
 			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.076" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.095" shotCount="5" suppressionValue="85" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/AK47_colour.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>
@@ -53,7 +53,7 @@
 			<Set2 ap="40" accuracy="80" />
 			<Set3 ap="55" accuracy="130" />
 		</SingleShot>
-		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.076" shotCount="5" suppressionValue="85" suppressionRadius="2" />
+		<BurstFire ap="60" accuracy="27" sound="Weapon AK47 Burst" delay="0.6" burstdelay="0.095" shotCount="5" suppressionValue="85" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/AK47_colour.png"/>
 		<GroundImage name="grounditemimages/ballistic_ak.png"/>
 		<Ammos>
@@ -101,7 +101,7 @@
 	<Weapon MODMERGEATTRIBUTE="name" MODMERGE="insert" name="weapon.machinegun2" bulletType="normal" emptySound="Empty Click 1">
 		<props range="25" hands="2" recoil="70" weight="8" isHeavy="0" clipSize="30" reloadAPCost="35" reloadSound="Weapon Machinegun Reload" strengthLimited="1" reactionModifier="0.5" />
 		<SingleShot />
-		<BurstFire ap="80" accuracy="35" sound="Weapon PKM Burst" delay="0.7" burstdelay="0.1" shotCount="10" suppressionValue="120" suppressionRadius="2" />
+		<BurstFire ap="80" accuracy="35" sound="Weapon PKM Burst" delay="0.7" burstdelay="0.097" shotCount="10" suppressionValue="120" suppressionRadius="2" />
 		<GUIImage name="gui/weapons/Machinegun2.png"/>
 		<GroundImage name="grounditemimages/ballistic_machinegun2.png"/>
 		<Ammos>
